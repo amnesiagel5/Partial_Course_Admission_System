@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TransfereeStudent</class>
+ <widget class="QWidget" name="TransfereeStudent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Transferee</string>
+  </property>
+  <widget class="QLabel" name="labelTransfereeTitle">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>10</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Pristina</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Partial Admission for Transferee Student</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelFName">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FirstName:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtFName">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>110</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCourse">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Courses:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelReq">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Requirements for Transferee Students:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClear">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSubmit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxTOR">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TOR</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox2x2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>290</y>
+     <width>351</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2 pcs. 2 X 2 ID Picture (Registrar's and SAO's Requirement</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxGoodM">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>310</y>
+     <width>301</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Original Copy of Good Moral Character Certification</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxNSO">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>250</y>
+     <width>321</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Original Copy of NSO Authenticated Birth Certificate</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox1x1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1 pc. 1 X 1 ID Picture (for Library Card)</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbCourse">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>461</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Course</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Forestry (BSF)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Agriculture major in Animal Science (BSA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Agriculture major in Horticulture (BSA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Agriculture major in Agronomy (BSA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Agriculture major in Crop Production (BSA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Agriculture major in Agricultural Economics (BSA)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Industrial Engineering (BSIE)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Information Technology (BSIT)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Science in Hospitality Management (BSHM)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Elementary Education (BEED)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Technology and Livelihood Education major in Home Economics (BTLEd)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Secondary Education major in Math (BSED-Math)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Arts in English Language Studies (AB-ELs)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor of Arts in Literature (AB-Lit)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor in Industrial Technology major in Garments Technology (BIT-GT)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor in Industrial Technology major in Automotive Technology (BIT-AT)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor in Industrial Technology major in Computer  Technology (BIT-CT)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor in Industrial Technology major in Drafting  Technology (BIT-DT)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor in Industrial Technology major in Electronics Technology (BIT-ET)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="labelLName">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>110</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>LastName:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtLName">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>110</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMI">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>110</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>M.I:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtMI">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>110</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtPrevSchool">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>461</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBoxNCAE">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>330</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Original Copy of NCAE Result (if taker)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSearch">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>380</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Sans Serif</family>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtSearch">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>379</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Enter First Name to search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDelete">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>530</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_9">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>401</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>300</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>310</y>
+     <width>20</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>641</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_11">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>641</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSUD">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>330</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Search-Update-Delete</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>590</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>20</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_7">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>80</y>
+     <width>20</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelInfo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Enter Information/Record</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelViewAdd">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>410</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>View-Add Record</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>310</y>
+     <width>20</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPrevSchool">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Previous School:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>620</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableTransferee">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>621</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <column>
+    <property name="text">
+     <string>FirstName</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MI</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>LastName</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PreviousSchool</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DesiredCourse</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Remarks</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btnAdd">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>560</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelExistRecord">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>310</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Existing Record</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClearSearch">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>430</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Clear Search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUpdate">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnImage">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>80</y>
+     <width>201</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>txtFName</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>384</x>
+     <y>388</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>txtLName</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>413</x>
+     <y>118</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>txtMI</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>404</x>
+     <y>384</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>589</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>txtPrevSchool</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked()</signal>
+   <receiver>cmbCourse</receiver>
+   <slot>clearEditText()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>377</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox1x1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>245</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxNSO</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>396</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxTOR</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox2x2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>404</x>
+     <y>392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxGoodM</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>402</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClear</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxNCAE</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>TransfereeStudent</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>653</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>587</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnDelete</sender>
+   <signal>clicked()</signal>
+   <receiver>tableTransferee</receiver>
+   <slot>clearSelection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>765</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>488</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>txtSearch</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>764</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>745</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>txtMI</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>779</x>
+     <y>576</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>txtLName</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>801</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>488</x>
+     <y>117</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>txtFName</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>730</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>txtPrevSchool</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>764</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked()</signal>
+   <receiver>cmbCourse</receiver>
+   <slot>clearEditText()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>787</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>495</x>
+     <y>179</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox1x1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>756</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxNSO</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>809</x>
+     <y>580</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>420</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxTOR</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>724</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>211</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox2x2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>738</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>183</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBox2x2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>776</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>488</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxGoodM</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>789</x>
+     <y>576</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>450</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearSearch</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>checkBoxNCAE</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>574</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
