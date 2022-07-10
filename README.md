@@ -25,6 +25,7 @@ To use/run this python application:
 Thank you!
 
 by: Grupo #BSIT-2B  \(^_^)/...
+    Leizel, James Kenneth, Connie, Angel, and Jelly Ann
 
 *****************************************************************************************
 
