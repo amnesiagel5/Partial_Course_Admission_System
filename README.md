@@ -4,9 +4,11 @@
 
 Integrative Programming Technologies (IPT-PC 223)
 PARTIAL COURSE ADMISSION SYSTEM (PCAS)
-
+#
 IDEs: Anaconda, Qt Designer
+#
 Server: SQL (Xampp)
+#
 To use/run this python application:
 #
       1. Place the 'Partial_Course_Admission_System' folder in D: drive; 
